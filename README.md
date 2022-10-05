@@ -1,6 +1,6 @@
 # LaTeX_Resume
 
-### Guide to use LaTeX for Mac
+### Guide to use LaTeX on Mac
 
 -> brew install --cask basictex
 
