@@ -16,6 +16,6 @@
 
 -> alias latex-build='sudo texliveonfly -c lualatex'
 
--> git clone “https://github.com/JimSongTheGreatest/LaTeX”
+-> git clone “https://github.com/moonnada/LatexResume.git”
 
 -> latex-build [Resume_Name.tex]
