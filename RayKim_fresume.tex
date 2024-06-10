@@ -1,0 +1,132 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{newtxtext}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{parskip}
+
+\geometry{left=0.5in, right=0.5in, top=0.3in, bottom=0.3in}
+
+\setlist[itemize]{left=0pt}
+
+% Formatting sections
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+
+% Remove the box around hyperlinks and change the link color to black
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=black,
+    citecolor=black
+}
+
+% Reduce space before and after sections
+\titlespacing*{\section}
+{0pt}{1ex plus 0.5ex minus .2ex}{0.5ex plus .2ex}
+
+% Reduce space between items in itemize
+\setlist{nosep}
+
+% Reduce overall document font size slightly
+\renewcommand{\normalsize}{\fontsize{11.5}{12.5}\selectfont}
+
+\begin{document}
+\pagestyle{empty}
+
+% Header
+\begin{center}
+    {\LARGE \textbf{Byung Moon Kim}}
+\end{center}
+\noindent \begin{center}
+    kimbm2014@gmail.com \,|\, Mountain View, CA \,|\, 213.407.1213 \,|\, \href{https://www.linkedin.com/in/ray-kim0727}{LinkedIn} \,|\, \href{https://github.com/moonnada}{Github} \,|\, \href{https://raykim0727.vercel.app/}{Portfolio}
+\end{center}
+
+\vspace{1.5mm}
+
+% Centered summary
+\begin{center}
+    Experienced Frontend Engineer with a track record of developing robust web applications.\\
+    Seeking a full-time position in a dynamic organization where I can contribute to the team’s success.
+\end{center}
+
+\vspace{1.5mm}
+
+\section*{Skills}\vspace{0.5mm}
+\begin{itemize}
+    \item \textbf{Programming Languages}: TypeScript, JavaScript, Python\vspace{0.5ex}
+    \item \textbf{Frameworks and Technologies}: HTML5, SASS, React, Redux, GraphQL, Apollo Client, REST APIs\vspace{0.5ex}
+    \item \textbf{Testing and CI/CD}: React Testing Library, Playwright, Cypress, GitHub Actions, Gitlab\vspace{0.5ex}
+    
+\end{itemize}
+
+\vspace{3mm}
+
+\section*{Work Experience}\vspace{0.5mm}
+\noindent \textbf{CrowdDoing} \hfill {San Jose}\\
+\vspace{0.5mm}
+\textit{Frontend Engineer} \hfill {January 2024 - Present}\vspace{-\baselineskip}
+\vspace{2.5mm}
+\begin{itemize}
+    \item Spearheaded the development of reusable \textbf{React} components, enhancing development efficiency.\vspace{0.3ex}
+    \item Engineered responsive and accessible user interfaces, optimizing user experience across different devices.\vspace{0.3ex}
+    \item Conducted comprehensive unit testing using \textbf{React Testing Library}, ensuring high-quality, defect-free code.\vspace{0.3ex}
+    \item Coordinated with UI/UX teams using JIRA for aligning priorities through design reviews and issue tracking.\vspace{0.3ex}
+\end{itemize}
+
+\vspace{3mm}
+
+\noindent \textbf{Genemod} \hfill {San Jose}\\
+\textit{Frontend Engineer} \hfill {June 2022 - May 2023}\vspace{-\baselineskip}
+\vspace{2.5mm}
+\begin{itemize}
+    \item Developed and executed advanced web applications using \textbf{React, TypeScript, and Redux}, leading to improved user engagement and page load speed.\vspace{0.3ex}
+    \item Refactored a legacy JavaScript codebase to TypeScript, implementing type safety and improving code maintainability.\vspace{0.3ex}
+    \item Integrated \textbf{RESTful APIs} with frontend applications, leveraging Django to ensure seamless data exchange and optimal application performance.\vspace{0.3ex}
+    \item Implemented E2E testing strategies with \textbf{Cypress and Playwright}, enhancing application reliability.\vspace{0.3ex}
+\end{itemize}
+
+\vspace{3mm}
+
+\noindent \textbf{Underwatch} \hfill {San Jose}\\
+\textit{Frontend Engineer} \hfill {October 2021 - May 2022}\vspace{-\baselineskip}
+\vspace{2.5mm}
+\begin{itemize}
+    \item Boosted user interaction through the implementation of redesigned main and statistics pages using React, providing a more intuitive user experience.\vspace{0.3ex}
+    \item Aggregated and systematized user information by integrating Instagram and Facebook APIs with \textbf{GraphQL}, increasing data accuracy and streamlining data retrieval processes.\vspace{0.3ex}
+    \item Collaborated with the QA team to identify and resolve bugs, ensuring a stable and reliable product release.\vspace{0.3ex}
+\end{itemize}
+
+\vspace{3mm}
+
+\noindent \textbf{IBM} \hfill {Los Angeles}\\
+\textit{Frontend Engineer Apprentice} \hfill {June 2021 - August 2021}\vspace{-\baselineskip}
+\vspace{2.5mm}
+\begin{itemize}
+    \item Led a team in developing a modern frontend application using \textbf{React and Redux}, focusing on delivering a seamless user experience.\vspace{0.3ex}
+    \item Managed project development and documentation via GitHub, implementing CI/CD strategies to streamline deployment processes.\vspace{0.3ex}
+    \item Demonstrated strong collaboration and communication skills, effectively working with designers and backend developers.\vspace{0.3ex}
+\end{itemize}
+
+\vspace{3mm}
+
+\noindent \textbf{StemAway} \hfill {Los Angeles}\\
+\textit{Frontend Engineer Intern} \hfill {June 2021 - August 2021}\vspace{-\baselineskip}
+\vspace{2.5mm}
+\begin{itemize}
+    \item Configured and built a theme and plugin for an open-source community forum software, Discourse, enhancing user interaction and engagement.\vspace{0.3ex}
+    \item Utilized Object Oriented Programming in \textbf{JavaScript} and DOM structure to implement various frontend functionalities, improving the forum’s usability and performance.\vspace{0.3ex}
+\end{itemize}
+
+\vspace{3mm}
+
+\section*{Education}\vspace{0.5mm}
+\noindent \textbf{San Jose State University | Charles W. Davidson College of Engineering} \hfill \textit{B.S. Software Engineering} \hfill 
+\begin{itemize}
+    \item Relevant Coursework: Computer Architecture, Probability \& Statistics in Engineering, Computer Network,\\Object Oriented Design, Software Engineering I, II, Operating Systems, Software Quality Testing, Database
+\end{itemize}
+\end{document}
